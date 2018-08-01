@@ -1,0 +1,16 @@
+ocaml_binary(
+    name='main',
+    bytecode_only = True,
+    srcs=[
+        'main.ml',
+    ],
+    compiler_flags = [
+        "-I",
+        "+compiler-libs",
+        "ocamlcommon.cma",
+    ],
+#    compiler_flags = [
+#        "-warn-error",
+#        "+a",
+#    ],
+)

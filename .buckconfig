@@ -1,0 +1,8 @@
+[ocaml]
+    ocaml.bytecode.compiler = /Users/glebkolobkov/.opam/4.06.1+multicore+trunk/bin/ocamlc.opt
+    ocaml.compiler = /Users/glebkolobkov/.opam/4.06.1+multicore+trunk/bin/ocamlopt.opt
+    dep.tool = /Users/glebkolobkov/.opam/4.06.1+multicore+trunk/bin/ocamldep.opt
+    lex.compiler = /Users/glebkolobkov/.opam/4.06.1+multicore+trunk/bin/ocamllex.opt
+    yacc.compiler = /Users/glebkolobkov/.opam/4.06.1+multicore+trunk/bin/ocamlyacc
+    debug = /Users/glebkolobkov/.opam/4.06.1+multicore+trunk/bin/ocamldebug
+    interop.includes = /Users/glebkolobkov/.opam/4.06.1+multicore+trunk/lib/ocaml
