@@ -9,7 +9,11 @@
             "type": "ocamldebug",
             "request": "launch",
             "program": "${workspaceRoot}/buck-out/bin/src/main/main",
+            "args": [
+                "-i ${workspaceRoot}/example/idl/hello.idl",
+            ],
             "console": "internalConsole",
+            "preLaunchTask": "build", // Build before launch
             "stopOnEntry": false
         }
     ]

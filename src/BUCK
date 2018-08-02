@@ -3,11 +3,11 @@ ocaml_binary(
     bytecode_only = True,
     srcs=[
         'main.ml',
+        'CLI.ml',
+        'CLI.mli',
     ],
     compiler_flags = [
-        "-I",
-        "+compiler-libs",
-        "ocamlcommon.cma",
+        "-package angstrom",
     ],
 #    compiler_flags = [
 #        "-warn-error",

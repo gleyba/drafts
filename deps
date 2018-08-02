@@ -1,1 +1,2 @@
-opam install angstrom
+opam install angstrom -y
+opam install minicli -y
