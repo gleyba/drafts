@@ -1,8 +1,7 @@
 [ocaml]
     ocaml.bytecode.compiler = ./bin/ocamlc.opt.sh
     ocaml.compiler = ./bin/ocamlopt.opt.sh
-    dep.tool = /Users/admin/.opam/4.06.1+multicore+trunk/bin/ocamldep.opt
-    lex.compiler = /Users/admin/.opam/4.06.1+multicore+trunk/bin/ocamllex.opt
-    yacc.compiler = /Users/admin/.opam/4.06.1+multicore+trunk/bin/ocamlyacc
-    debug = /Users/admin/.opam/4.06.1+multicore+trunk/bin/ocamldebug
-    interop.includes = /Users/admin/.opam/4.06.1+multicore+trunk/lib/ocaml
+    dep.tool = ./bin/ocamldep.opt.sh
+    lex.compiler = ./bin/ocamllex.opt.sh
+    yacc.compiler = ./bin/ocamlyacc.sh
+    debug = ./bin/ocamldebug.sh

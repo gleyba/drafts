@@ -1,11 +1,12 @@
-open Angstrom
+open Core.Std
 ;;
-print_string "Hello world!\n";
-print_string "Hello world!\n";
-print_string "Hello world!\n";
-print_string "Hello world!\n"
+let testDummy () =
+  let i = 10 in
+  let ii = i in
+  ()
 ;;
-let argc, args = CLI.init () in
-let inputFile = CLI.get_string ["-i";"--input"] args in
-let outDir = CLI.get_string ["-o";"--out"] args in
-print_string (inputFile ^ " " ^ outDir)
+testDummy ();
+(* let argc, args      = CLI.init () in
+let inputFile       = CLI.get_string [ "-i" ; "--input" ] args in
+let outDir          = CLI.get_string [ "-o" ; "--out" ] args in
+print_string (inputFile ^ " " ^ outDir); *)

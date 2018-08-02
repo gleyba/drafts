@@ -1,6 +1,8 @@
 # Makefile
 build:
-	buck build //src:main
+	ocamlbuild -use-ocamlfind -pkg core src/main.d.byte
+	#buck build //src:main
 clean:
-	buck build //src:main
+	ocamlbuild -clean
+	#buck build //src:main
 .PHONY: build clean
