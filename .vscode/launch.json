@@ -8,14 +8,16 @@
             "name": "OCaml",
             "type": "ocamldebug",
             "request": "launch",
-            "program": "${workspaceRoot}/main.d.byte", //"${workspaceRoot}/buck-out/bin/src/main/main",
-            "args": [
-                "-i ${workspaceRoot}/example/idl/hello.idl",
-                "-o ${workspaceRoot}/example/out",
-            ],
-            "cwd": "${workspaceFolder}",
+            "program": 
+                "${workspaceRoot}/buck-out/bin/src/main/main",
+            //"${workspaceRoot}/main.d.byte",
+            // "args": [
+            //     "-i ${workspaceRoot}/example/idl/hello.idl",
+            //     "-o ${workspaceRoot}/example/out",
+            // ],
+            //"cwd": "${workspaceFolder}",
             "console": "internalConsole",
-            // "preLaunchTask": "build", // Build before launch
+            //"preLaunchTask": "build", // Build before launch
             "stopOnEntry": false
         }
     ]

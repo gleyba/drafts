@@ -2,9 +2,13 @@ ocaml_binary(
     name='main',
     bytecode_only = True,
     srcs=[
+        'tests.ml',
         'main.ml',
         'CLI.ml',
         'CLI.mli',
+        'YZKParse.ml',
+        'YZKDefs.ml',
+        'YZKDefs.mli',
     ],
     compiler_flags = [
         "-package angstrom",
